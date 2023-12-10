@@ -2,29 +2,142 @@
 
 ## User Story
 
-> As a user I want to determine if a given string is a pangram where a pangram is a sentence using every letter of the alphabet at least once.
+> As a user I should be able to determine if a given sentence is a pangram.
 
-## Example
+## What is a pangram?
 
-The best known English pangram is:
+A pangram is a sentence that contains every letter of the English alphabet. For example:
 
 > The quick brown fox jumps over the lazy dog
 
-## More Info
-
-All alphabets from a to z must be included and is case insensitive. Any special characters and/or numbers must be ignored.
-
 ## Acceptance Criteria
 
-- Should return a message `"Is a pangram"` for a sentence `"The quick brown fox jumps over the lazy dog"`
-- Should return a message `"Is not a pangram"` for a sentence `"The brown fox jumps over the lazy dog"`
+### 1
 
-## Tasks
+```
+Given I want to check the sentence "The quick brown fox jumps over the lazy dog"
 
-- Write a function `pangram` which accepts parameters comprising of the sentence
-- `pangram` function returns the message
-- Write unit tests for the `pangram` function
+When I enter the sentence
 
-## Usage
+Then I should be presented with a message "Hurray, it is a pangram!"
+```
 
-> To run tests use `npm run test pangram`
+### 2
+
+```
+Given I want to check the sentence "THe qUiCk BroWn fOx JUMPS oVer ThE laZy dOG"
+
+When I enter the sentence
+
+Then I should be presented with a message "Hurray, it is a pangram!"
+```
+
+### 3
+
+```
+Given I want to check the sentence "123 THe qUiCk BroWn fOx JUMPS oVer ThE laZy dOG"
+
+When I enter the sentence
+
+Then I should be presented with a message "Hurray, it is a pangram!"
+```
+
+### 4
+
+```
+Given I want to check the sentence "123 THe qUiCk BroWn fOx JUMPS oVer ThE laZy dOG!!"
+
+When I enter the sentence
+
+Then I should be presented with a message "Hurray, it is a pangram!"
+```
+
+### 5
+
+```
+Given I want to check the sentence "   123 THe qUiCk BroWn fOx JUMPS oVer ThE laZy dOG!!   "
+
+When I enter the sentence
+
+Then I should be presented with a message "Hurray, it is a pangram!"
+```
+
+### 6
+
+```
+Given I want to check the sentence "I love JavaScript"
+
+When I enter the sentence
+
+Then I should be presented with a message "Sorry, it is NOT a pangram!"
+```
+
+### 7
+
+```
+Given I want to check the sentence "123 I love JavaScript"
+
+When I enter the sentence
+
+Then I should be presented with a message "Sorry, it is NOT a pangram!"
+```
+
+### 8
+
+```
+Given I want to check the sentence "123 I love JavaScript!!"
+
+When I enter the sentence
+
+Then I should be presented with a message "Sorry, it is NOT a pangram!"
+```
+
+### 9
+
+```
+Given I want to check the sentence "   123 I love JavaScript!!  "
+
+When I enter the sentence
+
+Then I should be presented with a message "Sorry, it is NOT a pangram!"
+```
+
+### 10
+
+```
+Given I want to check the sentence "123$%^"
+
+When I enter the sentence
+
+Then I should be presented with a message "Sorry, it is NOT a pangram!"
+```
+
+### 11
+
+```
+Given I want to check the sentence ""
+
+When I enter the sentence
+
+Then I should be presented with a message "Error, invalid sentence!"
+```
+
+### 12
+
+```
+Given I want to check an undefined sentence
+
+When I enter the sentence
+
+Then I should be presented with a message "Error, invalid sentence!"
+```
+
+## Getting Started
+
+- Open your [test file](./index.test.js) and complete the tests for the above mentioned acceptance criteria
+- Open your [source file](./index.js) and complete the code until all your test cases pass
+
+## Resources
+
+- JavaScript docs [here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+- Jest docs [here](https://jestjs.io/docs/getting-started)
