@@ -11,15 +11,15 @@ myMath.add = function (num1, num2) {
   return num1 + num2;
 };
 
-const result1 = myMath.add(5, 5);
-console.log(result1);
+const addResult = myMath.add(5, 5);
+console.log(addResult);
 
 myMath.multiply = function () {
   return this.num1 * this.num2;
 };
 
-const result2 = myMath.multiply();
-console.log(result2);
+const multiplyResult = myMath.multiply();
+console.log(multiplyResult);
 
 const user = {
   firstName: "Bob",

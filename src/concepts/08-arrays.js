@@ -1,24 +1,24 @@
-const numbers = [1, 2, 3, 4];
-console.log(numbers);
+const users = ["Alice", "Bob", "Carol", "Dave"];
+console.log(users);
 
-numbers.push(5);
-console.log(numbers);
+users.push("Eve");
+console.log(users);
 
-numbers.pop();
-console.log(numbers);
+users.pop();
+console.log(users);
 
-numbers.pop();
-console.log(numbers);
+users.pop();
+console.log(users);
 
-const indexOf3 = numbers.indexOf(3);
+const indexOf3 = users.indexOf(3);
 console.log(indexOf3);
 
-const indexOf4 = numbers.indexOf(4);
+const indexOf4 = users.indexOf(4);
 console.log(indexOf4);
 
 // get value from array by index number
-const value = numbers[2];
-console.log(value);
+const user = users[2];
+console.log(user);
 
 const newArray = new Array(5);
 console.log(newArray);

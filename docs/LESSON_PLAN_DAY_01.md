@@ -5,14 +5,10 @@
 #### 10:00 - 10:15 (15 mins)
 
 - Introductions
-
-#### 10:15 - 10:30 (15 mins)
-
 - Secrets of a good software engineer
+- Overview of the tracks
 
-- Overview of the track
-
-#### 10:30 - 11:15 (45 mins)
+#### 10:15 - 11:15 (1 hr)
 
 - Variables
 - Data Types
