@@ -39,7 +39,7 @@ Then I should be presented with the following information:
 
   {
     annualIncome: 30000,
-    taxYear: 2021/2022,
+    taxYear: "2021/2022",
     taxableIncome: 17500,
     taxPercentage: 20,
     taxAmount: 3500,
@@ -58,7 +58,7 @@ Then I should be presented with the following information:
 
   {
     annualIncome: 50000,
-    taxYear: 2021/2022,
+    taxYear: "2021/2022",
     taxableIncome: 37500,
     taxPercentage: 40,
     taxAmount: 15000,
@@ -77,7 +77,7 @@ Then I should be presented with the following information:
 
   {
     annualIncome: 150000,
-    taxYear: 2021/2022,
+    taxYear: "2021/2022",
     taxableIncome: 137500,
     taxPercentage: 45,
     taxAmount: 61875,
@@ -96,7 +96,7 @@ Then I should be presented with the following information:
 
   {
     annualIncome: 10000,
-    taxYear: 2021/2022,
+    taxYear: "2021/2022",
     taxableIncome: 0,
     taxPercentage: 0,
     taxAmount: 0,
@@ -115,7 +115,7 @@ Then I should be presented with the following information:
 
   {
     annualIncome: 30000,
-    taxYear: 2022/2023,
+    taxYear: "2022/2023",
     taxableIncome: 17500,
     taxPercentage: 18,
     taxAmount: 3150,
@@ -134,7 +134,7 @@ Then I should be presented with the following information:
 
   {
     annualIncome: 50000,
-    taxYear: 2022/2023,
+    taxYear: "2022/2023",
     taxableIncome: 37500,
     taxPercentage: 35,
     taxAmount: 13125,
@@ -153,7 +153,7 @@ Then I should be presented with the following information:
 
   {
     annualIncome: 150000,
-    taxYear: 2022/2023,
+    taxYear: "2022/2023",
     taxableIncome: 137500,
     taxPercentage: 40,
     taxAmount: 55000,
@@ -172,7 +172,7 @@ Then I should be presented with the following information:
 
   {
     annualIncome: 10000,
-    taxYear: 2022/2023,
+    taxYear: "2022/2023",
     taxableIncome: 0,
     taxPercentage: 0,
     taxAmount: 0,
