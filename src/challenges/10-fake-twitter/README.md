@@ -6,14 +6,67 @@
 
 ## Acceptance Criteria
 
-- Function should accept an object to be transformed to a resultant object containing tweets and likes
-- Should filter out the tweets that contain hashtags `"honda"`, `"audi"` and `"bmw"`
-- Should sort the tweets by `id` in descending order
-- Should insert the total likes of all valid tweets with a key of `likes`
-- Should change the `hashtags` value of each valid tweet to a string. For example `#cars #nissan #newcar`
-- Should add a new field `title` with a string value that uses the `username`. For example `Tweet from Alice`
+### 1
 
-### Sample input tweets
+```
+Given I want to receive my transformed data
+
+When I process my data with multiple tweets
+
+Then I should be presented with the transformed data
+```
+
+### 2
+
+```
+Given I want to receive my transformed tweets
+
+When I process my tweets containing restricted hashtags (#bmw, #audi, #honda)
+
+Then I should be presented with the filtered tweets
+```
+
+### 3
+
+```
+Given I want to receive my transformed tweets
+
+When I process my tweets in mixed order of IDs
+
+Then I should be presented with the transformed tweets in descending order of IDs
+```
+
+### 4
+
+```
+Given I want to receive my transformed tweets
+
+When I process my tweets with likes
+
+Then I should be presented with the total likes of all valid tweets
+```
+
+### 4
+
+```
+Given I want to receive my transformed tweets
+
+When I process my tweets with usernames
+
+Then each tweet should contain a new field (hashtags) with the formatted hashtag string "#cars #nissan #newcar" as a value
+```
+
+### 5
+
+```
+Given I want to receive my transformed tweets
+
+When I process my tweets with multiple tweets
+
+Then each tweet should contain a new field (title) with the formatted message of "Tweet from <username>"
+```
+
+### Example Data
 
 ```javascript
 {
@@ -43,7 +96,7 @@
 }
 ```
 
-## Resultant tweets
+## Example Result
 
 ```javascript
 {
@@ -69,12 +122,12 @@
 }
 ```
 
-## Tasks
+## Getting Started
 
-- Write a function `fakeTwitterData` which accepts parameters comprising of the `tweets`
-- `fakeTwitterData` function returns the array of transformed tweets
-- Write unit tests for the `fakeTwitterData` function
+- Open your [test file](./index.test.js) and complete the tests for the above mentioned acceptance criteria
+- Open your [source file](./index.js) and complete the code until all your test cases pass
 
-## Usage
+## Resources
 
-> To run tests use `npm run test fake-twitter-data`
+- JavaScript docs [here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+- Jest docs [here](https://jestjs.io/docs/getting-started)
