@@ -8,11 +8,21 @@
     "npm": ">=9.0.0"
   },
   "scripts": {
+    "check": "jest src/check.test.js",
     "test": "jest --verbose",
     "test:watch": "jest --verbose --watch",
     "test:coverage": "jest --verbose --coverage",
     "test:solved": "jest --verbose src/solved/*",
-    "test:unsolved": "jest --verbose src/challenges/*"
+    "test:01": "jest --verbose --watch src/challenges/01*",
+    "test:02": "jest --verbose --watch src/challenges/02*",
+    "test:03": "jest --verbose --watch src/challenges/03*",
+    "test:04": "jest --verbose --watch src/challenges/04*",
+    "test:05": "jest --verbose --watch src/challenges/05*",
+    "test:06": "jest --verbose --watch src/challenges/06*",
+    "test:07": "jest --verbose --watch src/challenges/07*",
+    "test:08": "jest --verbose --watch src/challenges/08*",
+    "test:09": "jest --verbose --watch src/challenges/09*",
+    "test:10": "jest --verbose --watch src/challenges/10*"
   },
   "repository": {
     "type": "git",
