@@ -1,7 +1,7 @@
-import fakeTwitterData from ".";
+import { fakeTwitterData } from ".";
 
 describe("fakeTwitterData", () => {
-  test("should return expected result", () => {
+  it("should return the expected result for multiple tweets", () => {
     const expected = {
       tweets: [
         {
@@ -53,7 +53,7 @@ describe("fakeTwitterData", () => {
     expect(actual).toEqual(expected);
   });
 
-  test("should return an empty array ", () => {
+  it("should return the expected result for an empty array of tweets", () => {
     const expected = {
       tweets: [],
       likes: 0,

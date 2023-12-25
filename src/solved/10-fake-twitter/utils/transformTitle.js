@@ -1,10 +1,6 @@
 export const transformTitle = (tweets) => {
   const transformedTweets = tweets.map((tweet) => {
-    const username = tweet.username;
-
-    const title = `Tweet from ${username}`;
-
-    tweet.title = title;
+    tweet.title = `Tweet from ${tweet.username}`;
 
     return tweet;
   });

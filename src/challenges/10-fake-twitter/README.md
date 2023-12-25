@@ -6,65 +6,11 @@
 
 ## Acceptance Criteria
 
-### 1
-
-```
-Given I want to receive my transformed data
-
-When I process my data with multiple tweets
-
-Then I should be presented with the transformed data
-```
-
-### 2
-
-```
-Given I want to receive my transformed tweets
-
-When I process my tweets containing restricted hashtags (#bmw, #audi, #honda)
-
-Then I should be presented with the filtered tweets
-```
-
-### 3
-
-```
-Given I want to receive my transformed tweets
-
-When I process my tweets in mixed order of IDs
-
-Then I should be presented with the transformed tweets in descending order of IDs
-```
-
-### 4
-
-```
-Given I want to receive my transformed tweets
-
-When I process my tweets with likes
-
-Then I should be presented with the total likes of all valid tweets
-```
-
-### 4
-
-```
-Given I want to receive my transformed tweets
-
-When I process my tweets with usernames
-
-Then each tweet should contain a new field (hashtags) with the formatted hashtag string "#cars #nissan #newcar" as a value
-```
-
-### 5
-
-```
-Given I want to receive my transformed tweets
-
-When I process my tweets with multiple tweets
-
-Then each tweet should contain a new field (title) with the formatted message of "Tweet from <username>"
-```
+- tweets with restricted hashtags (bmw, audi, honda) should not be included in the result
+- tweets should be sorted in descending order of IDs
+- each tweet object should contain a new key `title` with a formatted message `Tweet from <username>`
+- each tweet object should contain a new key `hashtags` with a formatted string of all hashtags of the tweet, for instance hashtags tag1 and tag2 will become `#tag1 #tag2`
+- result should contain an array of transformed tweets and the total number of likes of all valid tweets
 
 ### Example Data
 
