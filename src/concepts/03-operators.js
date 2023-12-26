@@ -35,19 +35,23 @@ console.log(bits);
 let x = 4;
 let preIncrement = ++x;
 console.log(preIncrement);
+console.log(x);
 
 let y = 4;
 let postIncrement = y++;
 console.log(postIncrement);
+console.log(y);
 
 // Decrement
 let a = 4;
 let preDecrement = --a;
 console.log(preDecrement);
+console.log(a);
 
 let b = 4;
 let postDecrement = b--;
 console.log(postDecrement);
+console.log(b);
 
 // Remainder (Modulus)
 const remainder = 20 % 8;

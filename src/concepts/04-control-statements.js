@@ -2,7 +2,7 @@ const score = 30;
 
 if (score >= 50) {
   console.log("Gold");
-} else if (score < 50) {
+} else if (score >= 20 && score < 50) {
   console.log("Silver");
 } else {
   console.log("Bronze");
