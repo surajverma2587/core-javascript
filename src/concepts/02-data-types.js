@@ -19,3 +19,10 @@ console.log(result);
 // String Type
 const email = "bobsmith@email.com";
 console.log(email);
+
+// Object Type
+const data = {
+  firstName: "Bob",
+  lastName: "Smith",
+  age: 30,
+};
