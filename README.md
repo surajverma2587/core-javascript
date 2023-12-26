@@ -11,8 +11,6 @@
 
 ## Curriculum
 
-### Day 01
-
 - Concepts
   - Variables
   - Data Types
@@ -36,10 +34,6 @@
   - Palindrome challenge
   - Pangram challenge
   - RNA transcription challenge
-
-### Day 02
-
-- Challenges
   - Random password generator challenge
   - Take home salary calculator challenge
   - Expense tracker challenge
