@@ -14,7 +14,7 @@ if (hasError) {
   console.log("Something went wrong!");
 }
 
-let counter = 5;
+let counter = 3;
 
 while (counter > 0) {
   console.log(counter);
