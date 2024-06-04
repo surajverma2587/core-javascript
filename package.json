@@ -1,7 +1,7 @@
 {
-  "name": "code-from-scratch-curriculum",
+  "name": "core-javascript",
   "version": "1.0.0",
-  "description": "Resources containing concepts and challenges for the core JavaScript track.",
+  "description": "Resources containing concepts and challenges for the core JavaScript track",
   "engines": {
     "node": ">=18",
     "yarn": "please use npm",
@@ -38,7 +38,8 @@
     "@babel/preset-env": "^7.23.3",
     "@types/jest": "^29.5.11",
     "babel-jest": "^29.7.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.2"
   },
   "contributors": [
     {

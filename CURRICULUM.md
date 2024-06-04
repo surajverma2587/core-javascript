@@ -1,0 +1,3 @@
+# Core JavaScript Curriculum
+
+- variables
