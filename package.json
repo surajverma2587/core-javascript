@@ -13,6 +13,7 @@
     "test:watch": "jest --verbose --watch",
     "test:coverage": "jest --verbose --coverage",
     "test:solved": "jest --verbose src/solved/*",
+    "test:variables": "jest --verbose --watch --silent src/concepts/01-variables/challenges",
     "test:01": "jest --verbose --watch src/challenges/01*",
     "test:02": "jest --verbose --watch src/challenges/02*",
     "test:03": "jest --verbose --watch src/challenges/03*",
