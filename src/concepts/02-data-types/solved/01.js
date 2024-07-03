@@ -40,25 +40,16 @@ export const objectDataTypes = () => {
 };
 
 export const mapDataType = () => {
-  // declare a variable with a Map type
   const user = new Map();
-  // set the firstName as a key
   user.set("firstName", "Bob");
-  // set the lastName as a key
   user.set("lastName", "Smith");
-  // display the value of firstName in the console
   console.log(user.get("firstName"));
-  // display the value of lastName in the console
   console.log(user.get("lastName"));
 };
 
 export const setDataType = () => {
-  // declare a variable with a Set type
   const numbers = new Set();
-  // add one item to the set
   numbers.add(1);
-  // add one item to the set
   numbers.add(2);
-  // display the size of the set in the console
   console.log(numbers.size);
 };
