@@ -1,23 +1,24 @@
-// Assignment operator
-const fullName = "Bob Smith";
-console.log(fullName);
+/**
+% : Modulus (remainder)
+ */
 
-// Arithmetic operators
-// add
-const addition = 3 + 2;
+const num1 = 5;
+const num2 = 10;
+
+const addition = num1 + num2;
 console.log(addition);
 
-// subtract
-const subtraction = 3 - 2;
+const subtraction = num1 - num2;
 console.log(subtraction);
 
-// multiply
-const multiplication = 3 * 2;
+const multiplication = num1 * num2;
 console.log(multiplication);
 
-// divide
-const division = 3 / 2;
+const division = num1 / num2;
 console.log(division);
+
+const modulus = num1 % num2;
+console.log(modulus);
 
 // Unary plus
 const positiveNumber = +"30";
