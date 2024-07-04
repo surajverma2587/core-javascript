@@ -41,15 +41,19 @@ export const objectDataTypes = () => {
 
 export const mapDataType = () => {
   const user = new Map();
+
   user.set("firstName", "Bob");
   user.set("lastName", "Smith");
+
   console.log(user.get("firstName"));
   console.log(user.get("lastName"));
 };
 
 export const setDataType = () => {
   const numbers = new Set();
+
   numbers.add(1);
   numbers.add(2);
+
   console.log(numbers.size);
 };

@@ -1,4 +1,4 @@
-import { variables } from "./01";
+import { variables } from "./02";
 
 describe("variables", () => {
   let consoleSpy;
