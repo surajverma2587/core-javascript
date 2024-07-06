@@ -5,6 +5,7 @@ describe("control statements", () => {
 
   beforeEach(() => {
     jest.resetAllMocks();
+
     consoleSpy = jest.spyOn(console, "log");
   });
 
