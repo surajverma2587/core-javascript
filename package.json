@@ -16,6 +16,7 @@
     "test:variables": "jest --verbose --watch --silent src/concepts/01-variables/challenges",
     "test:data-types": "jest --verbose --watch --silent src/concepts/02-data-types/challenges",
     "test:operators": "jest --verbose --watch --silent src/concepts/03-operators/challenges",
+    "test:control-statements": "jest --verbose --watch --silent src/concepts/04-control-statements/challenges",
     "test:01": "jest --verbose --watch src/challenges/01*",
     "test:02": "jest --verbose --watch src/challenges/02*",
     "test:03": "jest --verbose --watch src/challenges/03*",
