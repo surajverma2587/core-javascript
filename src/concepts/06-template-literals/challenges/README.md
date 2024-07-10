@@ -1,4 +1,4 @@
-# Variables
+# Template Literals
 
 ## User Story
 

@@ -1,4 +1,4 @@
-# Variables
+# Operators
 
 ## User Story
 
