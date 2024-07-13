@@ -1,7 +1,7 @@
 import { greeting } from "./01";
 
 describe("greeting", () => {
-  it("should display the UV index as Low for 1", () => {
+  it("should display expected the good morning message", () => {
     const expected = "Good morning, Alice Smith!!";
     const actual = greeting("morning", {
       firstName: "Alice",
@@ -11,7 +11,7 @@ describe("greeting", () => {
     expect(actual).toEqual(expected);
   });
 
-  it("should display the UV index as Low for 2", () => {
+  it("should display expected the good afternoon message", () => {
     const expected = "Good afternoon, Bob Smith!!";
     const actual = greeting("noon", {
       firstName: "Bob",
@@ -21,7 +21,7 @@ describe("greeting", () => {
     expect(actual).toEqual(expected);
   });
 
-  it("should display the UV index as Moderate for 3", () => {
+  it("should display expected the good evening message", () => {
     const expected = "Good evening, Carol Smith!!";
     const actual = greeting("evening", {
       firstName: "Carol",
@@ -31,7 +31,7 @@ describe("greeting", () => {
     expect(actual).toEqual(expected);
   });
 
-  it("should display the UV index as Moderate for 4", () => {
+  it("should display expected the goodnight message", () => {
     const expected = "Goodnight, Dave Smith!!";
     const actual = greeting("night", {
       firstName: "Dave",
