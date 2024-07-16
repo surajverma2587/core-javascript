@@ -26,7 +26,7 @@
   - Array Methods
   - Object Methods
   - String Methods
-- Unit Tests
+  - Unit Tests
 - Challenges
   - Driver license challenge
   - Vowels and consonants challenge
