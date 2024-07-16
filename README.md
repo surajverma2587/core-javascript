@@ -39,4 +39,8 @@
   - Expense tracker challenge
   - Fake twitter challenge
 
+## Docs
+
+You can find the docusaurus link [here](https://core-javascript-docs.vercel.app/docs/core-javascript/intro)
+
 Happy Coding 🚀🚀🚀
