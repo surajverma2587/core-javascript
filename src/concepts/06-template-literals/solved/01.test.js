@@ -13,7 +13,7 @@ describe("greeting", () => {
 
   it("should display expected the good afternoon message", () => {
     const expected = "Good afternoon, Bob Smith!!";
-    const actual = greeting("noon", {
+    const actual = greeting("afternoon", {
       firstName: "Bob",
       lastName: "Smith",
     });

@@ -73,5 +73,12 @@ describe("functions", () => {
 
       expect(actual).toEqual(expected);
     });
+
+    it("should return the expected message on missing password", () => {
+      const expected = "Missing credentials";
+      const actual = authentication("", "");
+
+      expect(actual).toEqual(expected);
+    });
   });
 });

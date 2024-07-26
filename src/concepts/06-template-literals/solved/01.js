@@ -3,7 +3,7 @@ export const greeting = (timeOfDay, user) => {
     return `Good morning, ${user.firstName} ${user.lastName}!!`;
   }
 
-  if (timeOfDay === "noon") {
+  if (timeOfDay === "afternoon") {
     return `Good afternoon, ${user.firstName} ${user.lastName}!!`;
   }
 
